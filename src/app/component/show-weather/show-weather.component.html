@@ -1,10 +1,15 @@
 <div class="d-flex flex-column h-100">
+
   <div>
     <app-toolbar></app-toolbar>
   </div>
+
   <div class="d-flex flex-grow-1 justify-content-center align-items-center flex-column">
+
     <div>
-      {{ actualWeatherData.main?.temp - 273.15 }}
+      {{ actualWeatherData.main.temp - 273.15 }}
     </div>
+
   </div>
+
 </div>
