@@ -7,9 +7,12 @@
   <div class="d-flex flex-grow-1 justify-content-center align-items-center flex-column">
 
     <div>
-      {{ actualWeatherData.main.temp - 273.15 }}
+      {{ actualWeatherData.main.temp - 273.15234234234 | number:'1.0-1'}}<span>&#8451;</span>
     </div>
 
   </div>
 
 </div>
+
+<!--var num = 5.56789;-->
+<!--var n = num.toFixed(2);-->
